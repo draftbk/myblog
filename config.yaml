@@ -1,0 +1,26 @@
+baseurl: "/"
+languageCode: "en-us"
+title: "Lifans"
+theme: "xmin"
+permalinks:
+  post: "/posts/:year/:month/:day/:slug/"
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: About
+      url: "about/"
+      weight: 2
+    - name: Categories
+      url: "categories/"
+      weight: 3
+    - name: Tags
+      url: "tags/"
+      weight: 4
+params:
+  footer: "&copy; [Lifans](https://example.com) 2024 -- {Year}"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
